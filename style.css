@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blanchedalmond;
+  width: 300px;
+  height: 435px;
+}
+.card .pet-name {
+  font-size: 30px;
+}
+.card .button_pets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 45px;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 18px;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: #ffae34;
+}
+.card:hover .button_pets {
+  background-color: grey;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
